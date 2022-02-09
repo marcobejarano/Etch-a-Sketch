@@ -1,0 +1,29 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    align-content: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+.tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px;
+}
+
+.mousehov {
+    background-color: blue;
+}
+
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+}
